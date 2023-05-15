@@ -1,0 +1,83 @@
+
+.gg{
+  width: fit-content;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color:lightgrey;
+}
+.container1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-gap: 10px; 
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.gg .flexing .card{
+  height: fit-content;
+  width: fit-content;
+}
+
+.gg .flexing .card .container1 .unclicked-btn{
+  margin-right: 10px;
+  width :150px;
+  background-color: lightgreen;
+  border-color: white;
+  border-radius: 10px;
+  height: 40px;
+}
+.gg .flexing .card .container1 .clicked-btn{
+  margin-right: 10px;
+  width :150px;
+  background-color: darkgreen;
+  border-color: white;
+  border-radius: 10px;
+  height: 40px;
+}
+
+.gg .flexing .card .filter-launch .unclicked-btn{
+  margin-right: 10px;
+  width :100px;
+  background-color: lightgreen;
+  border-color: white;
+  border-radius: 10px;
+  height: 40px;
+  width: 150px;
+}
+.gg .flexing .card .filter-launch .clicked-btn{
+  margin-right: 10px;
+  width :150px;
+  background-color: darkgreen;
+  border-color: white;
+  border-radius: 10px;
+  height: 40px;
+}
+.gg .flexing .card .filter-land .unclicked-btn{
+  margin-right: 10px;
+  width :100px;
+  background-color: lightgreen;
+  border-color: white;
+  border-radius: 10px;
+  height: 40px;
+  width: 150px;
+  
+}
+.gg .flexing .card .filter-land .clicked-btn{
+  margin-right: 10px;
+  width :150px;
+  background-color: darkgreen;
+  border-color: white;
+  border-radius: 10px;
+  height: 40px;
+  
+}
+.gg .flexing{
+  display: flex;
+}
+
+.gg .alignc{
+  text-align: center;
+  margin-top: 1px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
